@@ -1,0 +1,56 @@
+html {
+        background-color: gray;
+}
+body {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        margin: 0px;
+        width: 100%;
+        height: 100%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        vertical-align: middle;
+}
+#content {
+        margin: 50px;
+        background-color: white;
+        width: 45%;
+        border-radius: 10px;
+}
+
+h1 {
+        text-align: center;
+}
+
+hr {
+        width: 60%;
+}
+
+a {
+        color: blue;
+        text-decoration: none;
+}
+
+#listOfPolicys {
+        margin-top: 20px;
+        background-color: white;
+        text-align: center;
+}
+
+#listOfPolicys ul {
+        list-style: none;
+}
+
+#listOfPolicys ul li {
+        height: 30px;
+        line-height: 30px;
+        font-size: 20px;
+}
+
+#listOfPolicys ul li:hover {
+        background-color: #ccc;
+}
