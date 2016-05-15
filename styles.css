@@ -47,6 +47,7 @@ a {
 
 #listOfPolicys ul li {
         display: inline-block;
+        margin-top: 10px;
         width: 100%;
         height: 30px;
         line-height: 30px;
